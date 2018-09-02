@@ -6,6 +6,7 @@ namespace Resin
     {
         static void Main(string[] args)
         {
+	    System.Globalization.Invariant = true;
             Console.WriteLine("Hello World!");
         }
     }
