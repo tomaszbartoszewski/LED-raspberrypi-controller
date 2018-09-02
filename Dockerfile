@@ -10,7 +10,7 @@ WORKDIR /usr/src/app
 COPY . /usr/src/app
 RUN dotnet publish -r linux-arm
 
-FROM resin/raspberry-pi3-debian:stretch
+FROM resin/raspberry-pi3-debian:jessie
 
 WORKDIR /usr/src/app
 
