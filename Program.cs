@@ -9,7 +9,7 @@ namespace Resin
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            if (!Directory.Exists("/sys/class/gpio/gpio18"))
+            /*if (!Directory.Exists("/sys/class/gpio/gpio18"))
             {
                 Console.WriteLine("...about to open pin 18");
                 File.WriteAllText("/sys/class/gpio/export", "18");
@@ -31,7 +31,7 @@ namespace Resin
                 File.WriteAllText("/sys/class/gpio/gpio18/value", "0");
                 Thread.Sleep(1000);    
 
-            }
+            }*/
             
         }
     }
