@@ -30,6 +30,7 @@ namespace Resin
                 Console.WriteLine("...setting output level to " + 0);
                 File.WriteAllText("/sys/class/gpio/gpio18/value", "0");
                 Thread.Sleep(1000);    
+
             }
             
         }
